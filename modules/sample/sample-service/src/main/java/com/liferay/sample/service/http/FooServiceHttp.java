@@ -14,8 +14,6 @@
 
 package com.liferay.sample.service.http;
 
-import org.osgi.annotation.versioning.ProviderType;
-
 /**
  * Provides the HTTP utility for the
  * <code>com.liferay.sample.service.FooServiceUtil</code> service
@@ -43,6 +41,5 @@ import org.osgi.annotation.versioning.ProviderType;
  * @see FooServiceSoap
  * @generated
  */
-@ProviderType
 public class FooServiceHttp {
 }

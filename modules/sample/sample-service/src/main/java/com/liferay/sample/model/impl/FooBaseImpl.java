@@ -17,8 +17,6 @@ package com.liferay.sample.model.impl;
 import com.liferay.sample.model.Foo;
 import com.liferay.sample.service.FooLocalServiceUtil;
 
-import org.osgi.annotation.versioning.ProviderType;
-
 /**
  * The extended model base implementation for the Foo service. Represents a row in the &quot;FOO_Foo&quot; database table, with each column mapped to a property of this class.
  *
@@ -31,7 +29,6 @@ import org.osgi.annotation.versioning.ProviderType;
  * @see Foo
  * @generated
  */
-@ProviderType
 public abstract class FooBaseImpl extends FooModelImpl implements Foo {
 
 	/*

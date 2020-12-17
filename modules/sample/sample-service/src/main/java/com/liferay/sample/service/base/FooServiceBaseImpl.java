@@ -44,7 +44,7 @@ import org.osgi.service.component.annotations.Reference;
  */
 public abstract class FooServiceBaseImpl
 	extends BaseServiceImpl
-	implements FooService, AopService, IdentifiableOSGiService {
+	implements AopService, FooService, IdentifiableOSGiService {
 
 	/*
 	 * NOTE FOR DEVELOPERS:
@@ -98,8 +98,8 @@ public abstract class FooServiceBaseImpl
 
 			sqlUpdate.update();
 		}
-		catch (Exception e) {
-			throw new SystemException(e);
+		catch (Exception exception) {
+			throw new SystemException(exception);
 		}
 	}
 
